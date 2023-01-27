@@ -1,6 +1,7 @@
 # Music Player
 
-Music Player is a simple way to play music on any device connected to the web. It can be used as a standalone app or in your smartphone's browser.
+Music Player is a simple way to play music on any device connected to the web.
+It can be used as a standalone app or in your smartphone's browser.
 
 It is built using HTML, CSS, and JavaScript.
 
