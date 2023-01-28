@@ -28,12 +28,13 @@ body {
   background: #c52828;
   border-radius: 20px;
   box-shadow: 0px 15px 30px 5px rgba(100, 57.3, 49.8, 0.4);
+  color: bisque;
 }
 .img-container {
   height: 300px;
   width: 300px;
   position: relative;
-  top: -50px;
+  top: -30px;
   left: 50px;
 }
 .img-container img {
@@ -69,7 +70,7 @@ h3 {
 }
 
 .progress {
-  background: #242323;
+  background: black;
   border-radius: 5px;
   height: 100%;
   /* change this to show progress */
@@ -82,6 +83,7 @@ h3 {
   top: -25px;
   display: flex;
   justify-content: space-between;
+  color: bisque;
 }
 
 /* Controls */
@@ -92,12 +94,16 @@ h3 {
   width: 200px;
 }
 
-.fas {
+.fa-solid {
   font-size: 30px;
-  color: rgb(129, 129, 129);
+  color: bisque;
   margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
 }
-
+.fa-solid:hover {
+  filter: brightness(70%);
+}
 .main-button {
   font-size: 40px;
   position: relative;

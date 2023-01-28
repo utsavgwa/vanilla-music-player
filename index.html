@@ -43,10 +43,10 @@
           alt="Album Art"
         />
       </div>
-      <h2 id="title">Audio Clip One</h2>
-      <h3 id="artist">Artist One</h3>
-      <audio src="./music/audio1.mp3" controls></audio>
-      <!-- progress bar container -->
+      <h2 id="title"></h2>
+      <h3 id="artist"></h3>
+      <audio src=""></audio>
+      <!-- progress -->
       <div class="progress-container" id="progress-container">
         <!-- this progress is the seek of the song, as the song goes -->
         <div class="progress" id="progress"></div>
@@ -54,6 +54,12 @@
           <span id="current-time">0:00</span>
           <span id="duration">1:33</span>
         </div>
+      </div>
+      <!-- controls  -->
+      <div class="player-controls">
+        <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+        <i class="fa-solid fa-play main-button" id="play" title="Play"></i>
+        <i class="fa-solid fa-forward" id="next" title="Next"></i>
       </div>
     </div>
     <!-- script -->
