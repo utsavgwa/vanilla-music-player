@@ -113,7 +113,7 @@ h3 {
 /* Media Query: for phones (Vertical) */
 @media screen and (max-width: 400px) {
   .player-container {
-    width: 95vw;
+    width: 91vw;
   }
   .img-container {
     left: 29px;

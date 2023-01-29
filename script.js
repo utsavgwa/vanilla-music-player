@@ -130,8 +130,17 @@ function updateProgressBar(e) {
     currentTimeEle.textContent = `${currentMinutes}:${currentSeconds}`;
   }
 }
+// set progress bar function
+function setProgressBar(e) {
+  // console.log(e);
+  const width = this.clientWidth;
+  const clickValue = e.offsetX;
+  const { duration } = music;
+  music.currentTime = (clickValue / width) * duration;
+}
 // event listeners for buttons
 prevBtn.addEventListener("click", prevSong);
 nextBtn.addEventListener("click", nextSong);
 
 music.addEventListener("timeupdate", updateProgressBar);
+progressContainer.addEventListener("click", setProgressBar);
