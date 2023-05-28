@@ -7,11 +7,11 @@ It is built using HTML, CSS, and JavaScript.
 
 ## Live Preview
 
-Site is live as [**_Music Player_**](https://utsavsingh.me/vanilla-music-player/), go and check it out!
+Site is live as [**_Music Player_**](https://utsavgwa.github.io/vanilla-music-player/), go and check it out!
 See how it works.
 
 URL for website is --
-https://utsavsingh.me/vanilla-music-player/
+https://utsavgwa.github.io/vanilla-music-player/
 
 ## Contributing
 
